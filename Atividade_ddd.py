@@ -1,5 +1,7 @@
 #EQUIPE: IGOR PEREIRA, SAMARA FADIGAS E VITOR TANAN.
 
+
+#Dicionario cujo os ddds são como chaves assoaciadas as capitais
 ddds = {
   "61": "brasilia",
   "71": "salvador",
@@ -11,8 +13,13 @@ ddds = {
   "31": "belo horizonte"
 }
 while True:
+  #recebe o ddd do usuario
   nun = input("digite seu ddd")
+  #converte o ddd de inteiro para string
   nun = str(nun)
+  #vare  o dicionario
   for ddd in ddds:
+    # para cada ddd no dicionario igual ao que o usaurio digitou
     if ddd == nun:
+      #printa  o estado associado a chave/ddd
       print(ddds[ddd])
