@@ -1,5 +1,6 @@
-#EQUIPE: IGOR PEREIRA, SAMARA FADIGAS E VITOR TANAN.
-#Dicionario cujo os ddds são como chaves assoaciadas as capitais
+# EQUIPE: IGOR PEREIRA, SAMARA FADIGAS E VITOR TANAN.
+
+# Dicionario cujo os ddds são como chaves assoaciadas as capitais
 ddds = {
     "61": "brasilia",
     "71": "salvador",
@@ -12,13 +13,13 @@ ddds = {
 }
 while True:
 # recebe o ddd do usuario
-  nun = input("digite seu ddd")
+  nun = input("digite seu DDD")
   # converte o ddd de inteiro para string
   nun = str(nun)
   validate = False
   # vare  o dicionario
   for ddd in ddds:
-  # para cada ddd no dicionario igual ao que o usaurio digitou
+  # para cada ddd no dicionario igual ao que o usuario digitou
       if ddd == nun:
         # printa  o estado associado a chave/ddd
           print(ddds[ddd])
@@ -26,5 +27,4 @@ while True:
           break
    #faz o tratamento de erro
   if validate == False:
-    print("DDD invalido, tente novamente")
-
+    print("DDD invalido, tente novamente.")
