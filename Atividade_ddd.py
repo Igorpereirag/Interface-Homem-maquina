@@ -19,7 +19,7 @@ while True:
   nun = str(nun)
   #vare  o dicionario
   for ddd in ddds:
-    # para cada ddd no dicionario igual ao que o usaurio digitou
+    # para cada ddd no dicionario igual ao que o usurio digitou
     if ddd == nun:
       #printa  o estado associado a chave/ddd
       print(ddds[ddd])
