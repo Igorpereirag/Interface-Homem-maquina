@@ -1,6 +1,4 @@
 #EQUIPE: IGOR PEREIRA, SAMARA FADIGAS E VITOR TANAN.
-
-
 #Dicionario cujo os ddds são como chaves assoaciadas as capitais
 ddds = {
     "61": "brasilia",
